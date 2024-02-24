@@ -1,3 +1,5 @@
 function greet(name) {
-  return `Hello, ${name}!`;
+  return (name);
 }
+
+const greeting = greet('Victoria');
