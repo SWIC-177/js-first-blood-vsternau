@@ -1,7 +1,11 @@
-function greet(name) {
-  return (`Hello, ${name}`);
+const name = "Victoria";
+const age = 31;
+
+function verifyAdulthood(name, age) {
+  if (age >= 18) {
+    return `Welcome, ${name}!`;
+  }
+  return `You are not old enough to enter, ${name}!`;
 }
 
-const greeting = greet('Victoria');
-
-console.log(greeting);
+console.log(verifyAdulthood(name, age));
