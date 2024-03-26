@@ -1,7 +1,5 @@
-let i = 0;
-
-while (i <= 100) {
-  // DO SOMETHING
+for (let i = 0; i <= 100; i += 1) {
+  // Do something
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   } else if (i % 3 === 0) {
@@ -11,5 +9,4 @@ while (i <= 100) {
   } else {
     console.log(i);
   }
-  i += 1;
 }
