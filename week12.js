@@ -36,3 +36,16 @@ otherPerson.name = "Jane Doe";
 
 console.log(`Person's name is: ${person.name}`);
 console.log(`Other Person's name is: ${otherPerson.name}`);
+
+// pass by value
+const younger1  13;
+let younger2 = younger1;
+
+function incrementAge(age) {
+  return age + 1;
+}
+
+younger2 = incrementAge(younger2);
+
+console.log(`Younger1: ${younger1}`);   
+console.log(`Younger2: ${younger2}`);
