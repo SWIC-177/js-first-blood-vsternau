@@ -49,3 +49,19 @@ younger2 = incrementAge(younger2);
 
 console.log(`Younger1: ${younger1}`);   
 console.log(`Younger2: ${younger2}`);
+
+// pass by copy
+const name = "John Doe";
+let otherName = name; 
+
+console.log(`Name: ${name}`);
+console.log(`Other Name: ${otherName}`);  
+
+otherName = "Jane Doe";
+
+console.log(`Name: ${name}`);
+console.log(`Other Name: ${otherName}`);
+
+otherName = 23;
+console.log(`Name: ${name}`);
+console.log(`Other Name: ${otherName}`);
